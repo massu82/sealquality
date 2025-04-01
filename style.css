@@ -1,0 +1,213 @@
+/*
+  Theme Name: Seal Quality
+  Theme URI: http://sealquality.com.mx/
+  Description: Nuestro tema por defecto de 2020 es limpio, enfocado un diseño claro. La tipografía es sencilla, clara y legible en una gran variedad de tamaños de pantalla, además de disponible en multitud de idiomas. Lo hemos diseñado pensando primero en su uso móvil, lo que implica que tu contenido ocupará el centro de la escena independientemente de como lleguen tus visitantes, ya sea desde un móvil inteligente, una tableta, un portátil o un ordenador de escritorio.
+  Version: 2.0.0
+  Author: Innova Estudio
+  Author URI: http://www.innovaestudio.mx/
+  Tags: Mantenimiento, Construcción, Industria.
+*/
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Mahee Regular'), local('MuktaMahee-Regular'), url(https://fonts.gstatic.com/s/muktamahee/v5/XRXQ3IOIi0hcP8iVU67hA9vKUTo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Mukta Mahee Medium'), local('MuktaMahee-Medium'), url(https://fonts.gstatic.com/s/muktamahee/v5/XRXN3IOIi0hcP8iVU67hA9M5cioALHM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mukta Mahee';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Mukta Mahee SemiBold'), local('MuktaMahee-SemiBold'), url(https://fonts.gstatic.com/s/muktamahee/v5/XRXN3IOIi0hcP8iVU67hA9MVdSoALHM.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(http://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
+}
+body {
+  font-size: 1.5em;
+}
+.t_center {
+  text-align: center;
+}
+.t_left {
+  text-align: left;
+}
+.t_right {
+  text-align: right;
+}
+.t_jusfify {
+  text-align: justify !important;
+}
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-tabs {
+    width: 100% !important;
+  }
+}
+.nav-tabs a p {
+  font-family: 'Mukta Mahee', sans-serif !important;
+  color: #666 !important;
+}
+.nav-tabs a:hover {
+  background: #ffcb4e !important;
+}
+.nav-tabs a:active {
+  background: #ffcb4e !important;
+}
+.imagen_full {
+  padding: 1em 1.3em;
+  text-transform: uppercase;
+}
+.imagen_full ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.imagen_full ul li a {
+  margin: 0 0.3em;
+}
+.imagen_full img {
+  width: 100%;
+}
+/*Estilos Base*/
+.contenedor-img {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center !important;
+  cursor: default;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .contenedor-img {
+    width: none;
+  }
+}
+.contenedor-img img {
+  display: block;
+  position: relative;
+}
+.contenedor-img .mascara,
+.contenedor-img .contenido {
+  text-align: center !important;
+  width: 100%;
+  height: 92%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+/*Ejemplo 1*/
+.maxima_effect img {
+  text-align: center !important;
+  transition: all 0.2s linear;
+}
+.maxima_effect .mascara {
+  text-align: center !important;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+  padding: 2em;
+}
+.maxima_effect h6 {
+  text-align: center !important;
+  margin-top: 0em;
+  background: #fdc202;
+  padding: 0.8em 0.6em;
+  color: #ffffff;
+}
+.maxima_effect:hover img {
+  text-align: center !important;
+  transform: scale(1.01);
+  /*Damos un ligero zoom a la imagen*/
+}
+.maxima_effect:hover .mascara {
+  opacity: 1;
+}
+.maxima_effect:hover h3,
+.maxima_effect:hover h4,
+.maxima_effect:hover p,
+.maxima_effect:hover a.link {
+  margin-top: 1em;
+  opacity: 1;
+  transform: translateX(0px);
+  /*Regresamos a las posiciones originales*/
+  color: #ffffff;
+}
+.maxima_effect:hover p {
+  transition-delay: 0.1s;
+}
+.maxima_effect:hover a.link {
+  transition-delay: 0.2s;
+  /*Aplicamos un pequeño retardo para que se muestre al final*/
+  transform: translateY(0px);
+}
+.Videos section {
+  padding: 0 !important;
+}
+.Videos .row {
+  padding: 0 !important;
+}
+.Videos img {
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+}
+.Videos img:hover {
+  transform: scale(0.96);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -o-transform: scale(0.96);
+  background: rgba(0, 0, 0, 0.3);
+}

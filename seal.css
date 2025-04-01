@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:400,500,600');
+.t_center {
+  text-align: center;
+}
+.t_left {
+  text-align: left;
+}
+.t_right {
+  text-align: right;
+}
+.t_jusfify {
+  text-align: justify !important;
+}
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-tabs {
+    width: 100% !important;
+  }
+}
+.nav-tabs a p {
+  font-family: 'Mukta Mahee', sans-serif !important;
+  color: #666 !important;
+}
+.nav-tabs a:hover {
+  background: #ffcb4e !important;
+}
+.nav-tabs a:active {
+  background: #ffcb4e !important;
+}
+.imagen_full {
+  padding: 1em 1.3em;
+  text-transform: uppercase;
+}
+.imagen_full ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.imagen_full ul li a {
+  margin: 0 0.3em;
+}
+.imagen_full img {
+  width: 100%;
+}
+/*Estilos Base*/
+.contenedor-img {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center !important;
+  cursor: default;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .contenedor-img {
+    width: none;
+  }
+}
+.contenedor-img img {
+  display: block;
+  position: relative;
+}
+.contenedor-img .mascara,
+.contenedor-img .contenido {
+  text-align: center !important;
+  width: 100%;
+  height: 92%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+/*Ejemplo 1*/
+.maxima_effect img {
+  text-align: center !important;
+  transition: all 0.2s linear;
+}
+.maxima_effect .mascara {
+  text-align: center !important;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease-in-out;
+  padding: 2em;
+}
+.maxima_effect h6 {
+  text-align: center !important;
+  margin-top: 0em;
+  background: #ffcb4e;
+  padding: 0.8em 0.6em;
+  color: #fff;
+}
+.maxima_effect:hover img {
+  text-align: center !important;
+  transform: scale(1.01);
+  /*Damos un ligero zoom a la imagen*/
+}
+.maxima_effect:hover .mascara {
+  opacity: 1;
+}
+.maxima_effect:hover h3,
+.maxima_effect:hover h4,
+.maxima_effect:hover p,
+.maxima_effect:hover a.link {
+  margin-top: 1em;
+  opacity: 1;
+  transform: translateX(0px);
+  /*Regresamos a las posiciones originales*/
+  color: #fff;
+}
+.maxima_effect:hover p {
+  transition-delay: 0.1s;
+}
+.maxima_effect:hover a.link {
+  transition-delay: 0.2s;
+  /*Aplicamos un pequeño retardo para que se muestre al final*/
+  transform: translateY(0px);
+}

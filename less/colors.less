@@ -1,0 +1,60 @@
+/*
+  Theme Name: Seal Quality
+  Theme URI: http://sealquality.com.mx/
+  Description: Nuestro tema por defecto de 2020 es limpio, enfocado un diseño claro. La tipografía es sencilla, clara y legible en una gran variedad de tamaños de pantalla, además de disponible en multitud de idiomas. Lo hemos diseñado pensando primero en su uso móvil, lo que implica que tu contenido ocupará el centro de la escena independientemente de como lleguen tus visitantes, ya sea desde un móvil inteligente, una tableta, un portátil o un ordenador de escritorio.
+  Version: 2.0.0
+  Author: Innova Estudio
+  Author URI: http://www.innovaestudio.mx/
+  Tags: Mantenimiento, Construcción, Industria.
+*/
+@import url('https://fonts.googleapis.com/css?family=Mukta+Mahee:400,500,600');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+@amarillo: #fdc202;
+@texto: #888888;
+@gris: #201e1f;
+@blanco: #ffffff;
+
+.t_center {
+	text-align: center;
+}
+.t_left {
+	text-align: left;
+}
+.t_right {
+	text-align: right;
+}
+.t_jusfify {
+	text-align: justify !important;
+}
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}

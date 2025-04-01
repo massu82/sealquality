@@ -1,0 +1,107 @@
+@import url(colors.less);
+
+.nav-tabs {
+	@media (min-width: 320px) and (max-width: 767px) {
+		width: 100% !important;
+	}
+	a {
+		p {
+			font-family: 'Mukta Mahee', sans-serif !important;
+			color: #666 !important;
+		}
+	}
+	a:hover {
+		background: #ffcb4e !important;
+	}
+	a:active {
+		background: #ffcb4e !important;
+	}
+}
+.imagen_full {
+	padding: 1em 1.3em;
+	text-transform: uppercase;
+	ul li {
+		display: inline-block;
+		vertical-align: middle;
+		a {
+			margin: 0 0.3em; 
+		}
+	}
+	img {
+		width: 100%;
+	}
+}
+// EFECTO CSS3 MASCARA HOVER
+/*Estilos Base*/
+.contenedor-img {
+	width: 100%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center !important;
+	cursor: default;
+	@media (min-width: 320px) and (max-width: 768px) {
+		width: none;
+	}
+	img {
+		display: block;
+		position: relative;
+
+	}
+}
+.contenedor-img .mascara,.contenedor-img .contenido {
+	text-align: center !important;
+	width: 100%;
+	height: 92%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0
+}
+/*Ejemplo 1*/
+.maxima_effect img {
+	text-align: center !important;
+	transition: all 0.2s linear;
+}
+.maxima_effect .mascara {
+	text-align: center !important;
+	opacity: 0;
+	background-color: rgba(0,0,0, 0.7);
+	transition: all 0.3s ease-in-out;
+	padding: 2em;
+	// border-radius: 0 0 3.2em 3.2em;
+}
+
+.maxima_effect h6 {
+	text-align: center !important;
+	margin-top: 0em;
+	background: @amarillo;
+	padding: 0.8em 0.6em;
+	// border-radius: 0 0 3.2em 3.2em;
+	color: @blanco;
+}
+.maxima_effect:hover img {
+	text-align: center !important;
+	transform: scale(1.01);/*Damos un ligero zoom a la imagen*/
+}
+.maxima_effect:hover .mascara {
+	opacity: 1;
+}
+.maxima_effect:hover h3,
+.maxima_effect:hover h4,
+.maxima_effect:hover p,
+.maxima_effect:hover a.link {
+	margin-top: 1em;
+	opacity: 1;
+	transform: translateX(0px);/*Regresamos a las posiciones originales*/
+	color: @blanco;
+
+}
+.maxima_effect:hover p {
+	transition-delay: 0.1s;
+}
+.maxima_effect:hover a.link {
+	transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+	transform: translateY(0px);
+}
