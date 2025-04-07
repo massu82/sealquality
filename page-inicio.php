@@ -430,10 +430,33 @@
                 <li data-target="#slider_boot" data-slide-to="3" class=""></li>
                 <li data-target="#slider_boot" data-slide-to="4" class=""></li>
                 <li data-target="#slider_boot" data-slide-to="5" class=""></li>
+                <li data-target="#slider_boot" data-slide-to="6" class=""></li>
+                <li data-target="#slider_boot" data-slide-to="7" class=""></li>
+                <li data-target="#slider_boot" data-slide-to="8" class=""></li>
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!--Nuevos sliders-->
                 <div class="item active">
+                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/sohh-and-sohhl.pdf" target="_blank"><img alt="Seal Quality"
+                                                                                                                            src="<?php echo get_template_directory_uri(); ?>/images/banner8.jpg"
+                                                                                                                            width="100%">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/svs-v1.pdf" target="_blank"><img alt="Seal Quality"
+                                                                                                                          src="<?php echo get_template_directory_uri(); ?>/images/banner9.jpg"
+                                                                                                                          width="100%">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/sms-b3.pdf" target="_blank"><img alt="Seal Quality"
+                                                                                                                          src="<?php echo get_template_directory_uri(); ?>/images/banner10.jpg"
+                                                                                                                          width="100%">
+                    </a>
+                </div>
+                <!--Termina nuevos sliders-->
+                <!--Nuevos sliders-->
+                <div class="item">
                     <a href="<?php echo get_template_directory_uri(); ?>/pdf/mah-slurry-pump-2024.pdf" target="_blank"><img alt="Seal Quality"
                                                                                                                  src="<?php echo get_template_directory_uri(); ?>/images/baner6.jpg"
                                                                                                                  width="100%">
@@ -446,7 +469,7 @@
                     </a>
                 </div>
                 <!--Termina nuevos sliders-->
-                <div class="item active">
+                <div class="item">
                     <a href="<?php echo get_template_directory_uri(); ?>/pdf/inproseal.pdf" target="_blank"><img alt="Seal Quality"
                                                                                                                  src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpg"
                                                                                                                  width="100%">
