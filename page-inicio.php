@@ -115,7 +115,8 @@
                                             <li>Tlaxcala |</li>
                                             <li>Puebla |</li>
                                         </ul>
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/cdmx.svg" alt="Seal Quality">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/cdmx.svg"
+                                             alt="Seal Quality">
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" role="tabpanel" id="monterrey" aria-labelledby="mty-tab">
@@ -282,7 +283,8 @@
                                         src="<?php echo get_template_directory_uri(); ?>/images/productos/bombas_neumaticas.jpg"
                                         alt="Seal Quality" width="100%"></a>
                             <div class="mascara">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/producto_allflo.png" alt="Seal Quality"
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/producto_allflo.png"
+                                     alt="Seal Quality"
                                      width="100%">
                             </div>
                         </div>
@@ -419,93 +421,140 @@
 
 
 <section class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-    <h3 class="text-center" style="font-size: 1.6em;color: #666;margin-bottom: 1em;">Descarga el catálogo de nuestras
-        marcas</h3>
-    <div class="sliderboot">
-        <div class="carousel slide" id="slider_boot" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#slider_boot" data-slide-to="0" class="active"></li>
-                <li data-target="#slider_boot" data-slide-to="1" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="2" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="3" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="4" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="5" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="6" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="7" class=""></li>
-                <li data-target="#slider_boot" data-slide-to="8" class=""></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <!--Nuevos sliders-->
-                <div class="item active">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/sohh-and-sohhl.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                            src="<?php echo get_template_directory_uri(); ?>/images/banner8.jpg"
-                                                                                                                            width="100%">
-                    </a>
+    <div class="container">
+        <h3 class="text-center" style="font-size: 2.6em;color: #285276;margin-bottom: 1.5em;">Descarga el catálogo de
+            nuestras
+            marcas</h3>
+        <div class="sliderboot">
+            <div class="carousel slide" id="slider_boot" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slider_boot" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider_boot" data-slide-to="1" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="2" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="3" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="4" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="5" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="6" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="7" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="8" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="9" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="10" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="11" class=""></li>
+                    <li data-target="#slider_boot" data-slide-to="12" class=""></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <!--Nuevos sliders-->
+                    <div class="item active">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/catalogo-c682.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/banner11.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/catalogo-cdsq.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/banner12.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/catalogo-csm-23.pdf"
+                           target="_blank"><img alt="Seal Quality"
+                                                src="<?php echo get_template_directory_uri(); ?>/images/banner13.jpg"
+                                                width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/catalogo-cssq-22.pdf"
+                           target="_blank"><img alt="Seal Quality"
+                                                src="<?php echo get_template_directory_uri(); ?>/images/banner14.jpg"
+                                                width="100%">
+                        </a>
+                    </div>
+                    <!--Termina nuevos sliders-->
+                    <!--Nuevos sliders-->
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/sohh-and-sohhl.pdf"
+                           target="_blank"><img alt="Seal Quality"
+                                                src="<?php echo get_template_directory_uri(); ?>/images/banner8.jpg"
+                                                width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/svs-v1.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/banner9.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/sms-b3.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/banner10.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <!--Termina nuevos sliders-->
+                    <!--Nuevos sliders-->
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/mah-slurry-pump-2024.pdf"
+                           target="_blank"><img alt="Seal Quality"
+                                                src="<?php echo get_template_directory_uri(); ?>/images/baner6.jpg"
+                                                width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/diii-ansi-series-1.pdf"
+                           target="_blank"><img alt="Seal Quality"
+                                                src="<?php echo get_template_directory_uri(); ?>/images/baner7.jpg"
+                                                width="100%">
+                        </a>
+                    </div>
+                    <!--Termina nuevos sliders-->
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/inproseal.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/allflo.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/baner2.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/grundfos.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/baner3.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/ksb.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/baner4.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="<?php echo get_template_directory_uri(); ?>/pdf/ansi.pdf" target="_blank"><img
+                                    alt="Seal Quality"
+                                    src="<?php echo get_template_directory_uri(); ?>/images/banner5.jpg"
+                                    width="100%">
+                        </a>
+                    </div>
                 </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/svs-v1.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                          src="<?php echo get_template_directory_uri(); ?>/images/banner9.jpg"
-                                                                                                                          width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/sms-b3.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                          src="<?php echo get_template_directory_uri(); ?>/images/banner10.jpg"
-                                                                                                                          width="100%">
-                    </a>
-                </div>
-                <!--Termina nuevos sliders-->
-                <!--Nuevos sliders-->
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/mah-slurry-pump-2024.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                 src="<?php echo get_template_directory_uri(); ?>/images/baner6.jpg"
-                                                                                                                 width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/diii-ansi-series-1.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                              src="<?php echo get_template_directory_uri(); ?>/images/baner7.jpg"
-                                                                                                              width="100%">
-                    </a>
-                </div>
-                <!--Termina nuevos sliders-->
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/inproseal.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                 src="<?php echo get_template_directory_uri(); ?>/images/baner1.jpg"
-                                                                                                                 width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/allflo.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                              src="<?php echo get_template_directory_uri(); ?>/images/baner2.jpg"
-                                                                                                              width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/grundfos.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                                src="<?php echo get_template_directory_uri(); ?>/images/baner3.jpg"
-                                                                                                                width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/ksb.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                           src="<?php echo get_template_directory_uri(); ?>/images/baner4.jpg"
-                                                                                                           width="100%">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="<?php echo get_template_directory_uri(); ?>/pdf/ansi.pdf" target="_blank"><img alt="Seal Quality"
-                                                                                                            src="<?php echo get_template_directory_uri(); ?>/images/banner5.jpg"
-                                                                                                            width="100%">
-                    </a>
-                </div>
-            </div>
-            <a href="#slider_boot" class="left carousel-control" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span> </a> <a href="#slider_boot" class="right carousel-control"
-                                                              role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span> </a></div>
+                <a href="#slider_boot" class="left carousel-control" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span> </a> <a href="#slider_boot" class="right carousel-control"
+                                                                  role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span> </a></div>
+        </div>
     </div>
 </section>
 
@@ -525,7 +574,8 @@
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/1.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/1.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -548,7 +598,8 @@
                 <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/2.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/2.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -571,7 +622,8 @@
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/3.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/3.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -594,7 +646,8 @@
                 <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/4.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/4.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -617,7 +670,8 @@
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/5.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/5.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -640,7 +694,8 @@
                 <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/6.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/6.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -663,7 +718,8 @@
                 <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/7.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/7.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -686,7 +742,8 @@
                 <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
                     <div class="folio-image">
                         <img class="img-responsive"
-                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/8.jpg" alt="Seal Quality">
+                             src="<?php echo get_template_directory_uri(); ?>/images/portfolio/8.jpg"
+                             alt="Seal Quality">
                     </div>
                     <div class="overlay">
                         <div class="overlay-content">
@@ -725,19 +782,22 @@
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/s_bombas.jpg" width="100%" alt="Seal Quality"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/s_bombas.jpg" width="100%"
+                     alt="Seal Quality"
                      style="margin: 3em 0; padding: 2em 0; color: #201e1f;">
                 <div class="divider"></div>
                 <h6 style="color:#201e1f; font-size: 1.65em; text-align: center; font-weight: bold;">Bombas</h6>
             </div>
             <div class="col-sm-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/s_reductor.jpg" width="100%" alt="Seal Quality"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/s_reductor.jpg" width="100%"
+                     alt="Seal Quality"
                      style="margin: 3em 0; padding: 2em 0; color: #201e1f;">
                 <div class="divider"></div>
                 <h6 style="color:#201e1f; font-size: 1.65em; text-align: center; font-weight: bold;">Reductores</h6>
             </div>
             <div class="col-sm-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/s_valvulas.jpg" width="100%" alt="Seal Quality"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/s_valvulas.jpg" width="100%"
+                     alt="Seal Quality"
                      style="margin: 3em 0; padding: 2em 0; color: #201e1f;">
                 <div class="divider"></div>
                 <h6 style="color:#201e1f; font-size: 1.65em; text-align: center; font-weight: bold;">Válvulas
@@ -757,7 +817,8 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="twitter-icon text-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/i_programas.png" alt="Seal Quality">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/i_programas.png"
+                             alt="Seal Quality">
                         <h4>PROGRAMAS</h4>
                     </div>
                     <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
